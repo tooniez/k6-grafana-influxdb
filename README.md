@@ -1,4 +1,4 @@
-# k6 Load Testing with InfluxDB and Grafana 🚀📊
+# K6 Load Testing with InfluxDB and Grafana 🚀📊
 
 This project provides a comprehensive setup for load testing using k6, with results stored in InfluxDB and visualized in Grafana. It's designed to help you easily set up, run, and analyze load tests for your applications.
 
