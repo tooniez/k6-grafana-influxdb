@@ -42,7 +42,7 @@ This project provides a comprehensive setup for load testing using k6, with resu
    ./run.sh
    ```
 
-4. Access the Grafana dashboard at `http://localhost:3000/d/k6/k6-load-testing-results`
+4. Access the Grafana dashboard at `http://localhost:3000/d/k6/k6-load-testing-results` with the default credentials `admin/admin`.
 
 ## Customizing the Load Test
 
