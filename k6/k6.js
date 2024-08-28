@@ -24,19 +24,19 @@ export default function () {
   const response = http.get(API_URL, {
     headers: { Accept: "application/json" }
   });
-  
+
   // Log the received Content-Type for debugging
   logContentType(response);
 
   // Perform checks on the response
   performResponseChecks(response);
-  
+
   // Parse the response body
   const body = JSON.parse(response.body);
 
   // Additional checks on the response body
   performBodyChecks(body);
-  
+
   // Wait for 300ms before next iteration
   sleep(0.3);
 }
