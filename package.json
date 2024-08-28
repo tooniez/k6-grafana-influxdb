@@ -1,0 +1,11 @@
+{
+  "name": "k6-grafana-influxdb-main",
+  "version": "0.0.1",
+  "description": "This project provides a comprehensive setup for load testing using k6, with results stored in InfluxDB and visualized in Grafana. It's designed to help you easily set up, run, and analyze load tests for your applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
